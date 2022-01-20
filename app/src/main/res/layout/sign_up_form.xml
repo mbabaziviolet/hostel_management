@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Sign Up Form"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="30dp"/>
+
+
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Your First Name"
+        android:padding="4dp"
+        android:textSize="15sp" />
+
+
+
+    <EditText
+        android:id="@+id/last"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Enter Your Last Name"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Enter Your User Name"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Enter Your Email"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        />
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Enter Your D O B"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Enter Your Location"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        />
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Enter Your Parents Contact"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Enter Your Password"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        />
+
+
+    <EditText
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Confirm Password"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Now"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:text="Have Account | Login"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+</LinearLayout>

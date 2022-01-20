@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="Please Fill In"
+        android:layout_margin="15dp"
+        />
+
+
+    <EditText
+        android:id="@+id/user1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Your Username"
+        android:textColor="@color/black"
+        android:padding="4dp"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Your Password"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
+
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Your Registration Number"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        android:layout_margin="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/btn_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="Don't Have Account | Register"
+        android:layout_margin="15dp"
+        />
+
+</LinearLayout>
